@@ -13,7 +13,8 @@
     HostBinding,
     ViewEncapsulation,
     ChangeDetectionStrategy,
-    NgZone
+    NgZone,
+    AfterViewInit
 } from '@angular/core';
 import { MapServiceFactory } from '../services/mapservicefactory';
 import { MapService } from '../services/map.service';
@@ -80,7 +81,7 @@ import { MapMarkerDirective } from './map-marker';
     encapsulation: ViewEncapsulation.None,
     changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class MapComponent implements OnChanges, OnInit, OnDestroy {
+export class MapComponent implements OnChanges, OnInit, OnDestroy, AfterViewInit {
 
     ///
     /// Field declarations

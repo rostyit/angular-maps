@@ -1,0 +1,23 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/** *
+ * This contstant translates the abstract map events into their corresponding bing map
+ * equivalents.
+  @type {?} */
+export var BingMapEventsLookup = {
+    click: 'click',
+    dblclick: 'dblclick',
+    rightclick: 'rightclick',
+    resize: 'resize',
+    boundschanged: 'viewchangeend',
+    centerchanged: 'viewchangeend',
+    zoomchanged: 'viewchangeend',
+    mouseover: 'mouseover',
+    mouseout: 'mouseout',
+    mousemove: 'mousemove',
+    infowindowclose: 'infoboxChanged'
+};
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYmluZy1ldmVudHMtbG9va3VwLmpzIiwic291cmNlUm9vdCI6Im5nOi8vYW5ndWxhci1tYXBzLyIsInNvdXJjZXMiOlsic3JjL21vZGVscy9iaW5nL2JpbmctZXZlbnRzLWxvb2t1cC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7OztBQU1BLFdBQWEsbUJBQW1CLEdBQW9CO0lBQ2hELEtBQUssRUFBZSxPQUFPO0lBQzNCLFFBQVEsRUFBWSxVQUFVO0lBQzlCLFVBQVUsRUFBVSxZQUFZO0lBQ2hDLE1BQU0sRUFBYyxRQUFRO0lBQzVCLGFBQWEsRUFBTyxlQUFlO0lBQ25DLGFBQWEsRUFBTyxlQUFlO0lBQ25DLFdBQVcsRUFBUyxlQUFlO0lBQ25DLFNBQVMsRUFBVyxXQUFXO0lBQy9CLFFBQVEsRUFBWSxVQUFVO0lBQzlCLFNBQVMsRUFBVyxXQUFXO0lBQy9CLGVBQWUsRUFBSyxnQkFBZ0I7Q0FDdkMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IElNYXBFdmVudExvb2t1cCB9IGZyb20gJy4uLy4uL2ludGVyZmFjZXMvaW1hcC1ldmVudC1sb29rdXAnO1xyXG5cclxuLyoqXHJcbiAqIFRoaXMgY29udHN0YW50IHRyYW5zbGF0ZXMgdGhlIGFic3RyYWN0IG1hcCBldmVudHMgaW50byB0aGVpciBjb3JyZXNwb25kaW5nIGJpbmcgbWFwXHJcbiAqIGVxdWl2YWxlbnRzLlxyXG4gKi9cclxuZXhwb3J0IGNvbnN0IEJpbmdNYXBFdmVudHNMb29rdXA6IElNYXBFdmVudExvb2t1cCA9IHtcclxuICAgIGNsaWNrIDogICAgICAgICAgICAgJ2NsaWNrJyxcclxuICAgIGRibGNsaWNrIDogICAgICAgICAgJ2RibGNsaWNrJyxcclxuICAgIHJpZ2h0Y2xpY2sgOiAgICAgICAgJ3JpZ2h0Y2xpY2snLFxyXG4gICAgcmVzaXplIDogICAgICAgICAgICAncmVzaXplJyxcclxuICAgIGJvdW5kc2NoYW5nZWQgOiAgICAgJ3ZpZXdjaGFuZ2VlbmQnLFxyXG4gICAgY2VudGVyY2hhbmdlZCA6ICAgICAndmlld2NoYW5nZWVuZCcsXHJcbiAgICB6b29tY2hhbmdlZCA6ICAgICAgICd2aWV3Y2hhbmdlZW5kJyxcclxuICAgIG1vdXNlb3ZlcjogICAgICAgICAgJ21vdXNlb3ZlcicsXHJcbiAgICBtb3VzZW91dCA6ICAgICAgICAgICdtb3VzZW91dCcsXHJcbiAgICBtb3VzZW1vdmUgOiAgICAgICAgICdtb3VzZW1vdmUnLFxyXG4gICAgaW5mb3dpbmRvd2Nsb3NlOiAgICAnaW5mb2JveENoYW5nZWQnXHJcbn07XHJcbiJdfQ==
