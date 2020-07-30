@@ -14,7 +14,8 @@
   "main": "./dist/index.js",
   "scripts": {
     "lint": "./node_modules/.bin/tslint -c tslint.json ./src/**/*.ts ./index.ts",
-    "package": "ng-packagr -p package.json"
+    "package": "ng-packagr -p package.json",
+    "prepare": "npm run package"
   },
   "keywords": [
     "ng2",
