@@ -14,4 +14,7 @@ Thumbs.db
 .vs
 
 # Ignored files
+*.js
+*.map
+*.d.ts
 *lock.json
