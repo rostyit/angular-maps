@@ -166,7 +166,7 @@ export {
 })
 export class MapModule {
 
-    static forRoot(mapServiceFactory?: MapServiceFactory, loader?: MapAPILoader): ModuleWithProviders {
+    static forRoot(mapServiceFactory?: MapServiceFactory, loader?: MapAPILoader) {
         return {
             ngModule: MapModule,
             providers: [
@@ -179,7 +179,7 @@ export class MapModule {
         };
     }
 
-    static forRootBing(): ModuleWithProviders {
+    static forRootBing() {
         return {
             ngModule: MapModule,
             providers: [
@@ -191,7 +191,7 @@ export class MapModule {
         };
     }
 
-    static forRootGoogle(): ModuleWithProviders {
+    static forRootGoogle() {
         return {
             ngModule: MapModule,
             providers: [
